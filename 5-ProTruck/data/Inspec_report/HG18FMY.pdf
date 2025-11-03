@@ -1,0 +1,70 @@
+<!doctype html>
+<html data-is-login-page>
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+    <title>Please Login</title>
+
+    <link href="/layout/css/style.css" rel="stylesheet" type="text/css"/>
+
+</head>
+
+<body id="login-page">
+
+<div class="container">
+    <div class="small-logo">
+        <a href="/">
+        	            <img src="/layout/login_logo_fleet.png" alt="The Fleet Auction Group" />
+                    </a>
+    </div>
+
+    <div class="row justify-content-md-center">
+        <div class="col-xs-12 col-md-5 col-lg-4">
+            <div class="form-signin">
+                <form method="post" action="/login">
+                    <input type="hidden" name="token" id="hiddenToken" value="DqL5OwJ6uY8GzTusQMFNh3O50N7Hp24G" />                    <input type="hidden" name="next" value="/motorvehicleinspectionreport/standard/44314.pdf" />
+                    <input type="hidden" name="ajax" value="" />
+
+                    <h2 class="form-signin-heading">Please Login</h2>
+                    
+                    <p class="mb-">If you already have your new login, please login as normal.</p>
+
+                    <input type="login" class="input-block-level form-control" name="username" id="username" placeholder="Email address" autocomplete="off">
+                    <input type="password" class="input-block-level form-control" name="password" id="password" placeholder="Password" autocomplete="off">
+
+                                        <div class="checkbox">
+                        <label><input type="checkbox" name="remember_me" value="1" checked />Remember me</label>
+                    </div>
+                    
+                    <button class="btn btn-white btn-lg btn-block" id="sign-in" type="submit">Sign in</button>
+                </form>
+                <a class="forgot-password-link" href="/forgotten-password">I've forgotten my password</a>
+            </div>
+        </div>
+        <div class="col-xs-12 col-md-7 col-lg-6">
+            <div class="login-box">
+                <h2 class="mb-" style="margin-top: 0;">We've changed the way you login to your account!</h2>
+                <p><strong>If you have an account with us, you may need to request a new login.</strong></p>
+                
+                                
+                <p class="mt"><strong>Enter your email address below</strong></p>
+                <p class="mb-">If your email address is linked to a customer account, we will send you a password reset link in your email.</p>
+				<form action="/forgotten-password" method="post" role="form">
+					<input type="hidden" name="token" id="hiddenToken" value="DqL5OwJ6uY8GzTusQMFNh3O50N7Hp24G" />					<div class="form-group">
+						<label for="email" class="sr-only">Your email address:</label>
+						<input class="form-control" type="email" name="email" id="email" required="required" placeholder="eg me@example.com" />
+					</div>
+					<button type="submit" class="btn btn-primary btn-lg btn-block login-btn">Reset Password</button>
+				</form>
+                
+            </div>
+        </div>
+    </div>
+
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,58 @@
+<!doctype html>
+<html data-is-login-page>
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+    <title>Please Login</title>
+
+    <link rel="stylesheet" type="text/css" href="/layout/css/style.css" />
+    
+    <script>
+    if(document.referrer){
+    	window.history.replaceState(null, "", document.referrer);
+    }
+    </script>
+
+</head>
+
+<body id="login-page">
+<div class="container">    <div class="small-logo">
+        <a href="/">
+            <img width="268" height="100" src="/layout/images/shoreham-logo.svg" alt="Shoreham Vehicle Auctions">
+        </a>
+    </div>
+
+    <div class="row justify-content-md-center">
+        <div class="col-xs-12 col-md-8 col-lg-6 col-xl-6">
+            <div class="form-signin">
+                <form method="post" action="/login">
+                    <input type="hidden" name="token" id="hiddenToken" value="35AfzhkzE4cfrSl8zCZXfZJdXXdBycfA" />                    <input type="hidden" name="next" value="/motorvehicleinspectionreport/standard/12318.pdf" />
+                    <input type="hidden" name="ajax" value="" />
+
+                    <h2 class="form-signin-heading">Please Login</h2>
+                    
+                    <p class="mb-">If you already have your new login, please login as normal.</p>
+
+                    <input type="login" class="input-block-level form-control" name="username" id="username" placeholder="Email address" autocomplete="off">
+                    <input type="password" class="input-block-level form-control" name="password" id="password" placeholder="Password" autocomplete="off">
+
+                                        <div class="checkbox">
+                        <label><input type="checkbox" name="remember_me" value="1" checked />Remember me</label>
+                    </div>
+                    
+                    <button class="btn btn-white btn-lg btn-block" id="sign-in" type="submit">Sign in</button>
+                </form>
+                <a class="forgot-password-link" href="/forgotten-password" style="color: #FFF">I've forgotten my password</a>
+            </div>
+			<p style="text-align: center" class="mb-2 mt-4">-- OR --</a>
+			<a href="/accountapplication" class="btn btn-secondary btn-lg btn-block mt-4">Apply for an Account</a>
+        </div>
+    </div>
+
+    </div>
+
+</body>
+
+</html>

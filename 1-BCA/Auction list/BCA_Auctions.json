@@ -1,0 +1,57 @@
+[
+    {
+        "Sale Name": "Alphabet / BCAOS / Fleet",
+        "Sale Date": "2025-10-31T09:00:00Z",
+        "Lots Available": 19
+    },
+    {
+        "Sale Name": "Dealer Sale 1",
+        "Sale Date": "2025-10-31T09:10:00Z",
+        "Lots Available": 133
+    },
+    {
+        "Sale Name": "JLR Sale",
+        "Sale Date": "2025-10-31T10:30:00Z",
+        "Lots Available": 6
+    },
+    {
+        "Sale Name": "Budget Lane 1",
+        "Sale Date": "2025-10-31T12:30:00Z",
+        "Lots Available": 356
+    },
+    {
+        "Sale Name": "UKCGR Premium No Quibble1",
+        "Sale Date": "2025-10-31T13:00:00Z",
+        "Lots Available": 178
+    },
+    {
+        "Sale Name": "UKCGR Total Loss",
+        "Sale Date": "2025-10-31T13:00:00Z",
+        "Lots Available": 21
+    },
+    {
+        "Sale Name": "UKCGR Trade Lane 2",
+        "Sale Date": "2025-10-31T13:00:00Z",
+        "Lots Available": 107
+    },
+    {
+        "Sale Name": "UKCGR Select Lane 1",
+        "Sale Date": "2025-10-31T15:00:00Z",
+        "Lots Available": 369
+    },
+    {
+        "Sale Name": "UKCGR Trade Lane 1",
+        "Sale Date": "2025-10-31T16:00:00Z",
+        "Lots Available": 300
+    },
+    {
+        "Sale Name": "UKCGR Automatics",
+        "Sale Date": "2025-10-31T17:30:00Z",
+        "Lots Available": 409
+    },
+    {
+        "Sale Name": "UKCGR Low Mileage",
+        "Sale Date": "2025-10-31T19:00:00Z",
+        "Lots Available": 407
+    }
+]
