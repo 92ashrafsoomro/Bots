@@ -28,7 +28,7 @@
         <div class="col-xs-12 col-md-8 col-lg-6 col-xl-6">
             <div class="form-signin">
                 <form method="post" action="/login">
-                    <input type="hidden" name="token" id="hiddenToken" value="h2mwE1mZaUogiauhk2MjRQtElq65nkSS" />                    <input type="hidden" name="next" value="/motorvehicleinspectionreport/standard/12668.pdf" />
+                    <input type="hidden" name="token" id="hiddenToken" value="c9tAtqwUkbbMSyC9O83V6R2Y2O7nAUHI" />                    <input type="hidden" name="next" value="/motorvehicleinspectionreport/standard/12668.pdf" />
                     <input type="hidden" name="ajax" value="" />
 
                     <h2 class="form-signin-heading">Please Login</h2>

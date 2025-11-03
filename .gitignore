@@ -1,6 +1,23 @@
-2-barclay/data/Images
-2-barclay/data/Reports
-2-barclay/data/json
-1-BCA/scrape/Images
-1-BCA/scrape/Reports
-1-BCA/scrape/json
+# Ignore everything by default
+*
+
+# Allow only specific file types
+!*.py
+!*.json
+!*.csv
+!*.ipynb
+
+# Ignore these folders anywhere in the project
+**/Images/
+**/images/
+**/Reports/
+**/reports/
+**/Screenshots/
+**/screenshots/
+**/data/
+**/__pycache__/
+**/.env
+**/.DS_Store
+
+# Ignore all hidden files and folders
+.*
